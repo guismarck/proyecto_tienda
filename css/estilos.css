@@ -1,0 +1,401 @@
+
+/* reset css*/
+/*then feel free! It's all explicitly in the public domain (I have to formally say that or else peop
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    margin: 0px;
+    background-image: none;
+    position: relative;
+    left: 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+   
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+/*fin reset css*/
+/* ESTILOS BASICOS*/
+
+@font-face{
+	font-family: "HelveticaNeue";
+	src: url(fuentes/HelveticaNeue.ttf) format(truetype);
+
+}
+
+/*-------ENCABEZADO------*/
+body{
+    font-family:  HelveticaNeue,Arial, sans-serif;
+    font-size: 15px ;
+    color: white;
+    line-height: 1.4;
+}
+html{
+    font-family: Arial, sans-serif;
+}
+
+div{
+    display: block;
+}
+
+li{
+
+ text-align: -webkit-match-parent;
+}
+
+img {
+    border-width: 2px;
+    position: absolute;
+    left: 36px;
+    top: 0px;
+    width: 60px;
+    height: 100px;
+}
+
+form{
+    display: block;
+    margin-top: 0em;
+    top: 20px;
+    left: 700px;
+}
+.row{
+  margin-bottom: 10px;
+}
+.linea{
+
+  background: black;
+}
+offer-box {
+  background-color: #6A75F0;
+  border: 1px solid #096FC0;
+  color: #fff;
+  font-weight: 900;
+  font-size:16px;
+  }
+      
+  .box-border{
+    border: 1px solid #e1e1e1 ;
+  }
+
+form .form-group .submit-buscador {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+    padding: 0;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(../img/lupa.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: none;
+}
+  
+/*.contenido-busqueda form{
+    position: relative;
+    margin-bottom: 0;
+
+ }
+   
+ .contenido-busqueda form #buscador{
+   height: 40px;
+   margin-bottom: 0;
+
+ }
+
+ .u-full-width {
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.contenedor{
+	
+	position: relative;
+    width: 100%;
+ 
+    margin: 0 auto;
+    padding: 0 30px;
+    box-sizing: border-box;
+    
+    
+}
+
+.encbezado_Pagina{
+    height: 0px;
+    width: 100%;
+    background-color: rgba(52, 150, 199, 10);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.encbezado_Pagina.nav-principal{
+ float: right;
+
+}
+.nav-principal{
+    float: left;
+    margin-left: 120px;
+
+}
+.nav-principal li a{
+ color: white;
+ text-transform: uppercase;
+ text-decoration: none;
+ line-height: 5px;
+ font-family: 'Arial Normal', 'Arial', sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 16px;
+ left: 2px;
+ right: 20px;
+ padding: 10px 15px;
+}
+
+.nav-principal li {
+    float: left;
+    margin-left: 5px;
+    list-style: none;
+    padding: 95px;
+    
+}
+
+
+.nav-principal li a:hover{
+    color: black;
+}
+
+.contenedor_1{
+    height: 640px;
+    background-color: rgba(52, 150, 199, 10.1);
+    background-size: cover;
+    padding-top: 230px;
+    box-sizing: border-box;
+
+}
+
+.compras.colum{
+font-weight:0%; 
+background: rgb(50, 64, 110);
+height: 0PX;
+}
+.compra{
+    float: center
+    ;
+}
+.colum{
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 4%;
+}
+
+
+
+
+/*VALIDACION DE FORMULARIOS*/
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; 
+  }
+
+/* Removes awkward default styles on some inputs for iOS /Elimina estilos predeterminados incóm*/
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; }
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; }
+fieldset {
+  padding: 0;
+  border-width: 0; }
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal;
+ }
+/*ESPACIOS DE  DE ENTRADA*/
+button,
+.button {
+  margin-bottom: 1rem; 
+  }
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem; }
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  margin-bottom: 2.5rem; }
+  
+/*Dandole diseño  al Header*/
+.navbar{
+  border-radius: 0px; 
+
+}
+.navbar-default {
+  background-color: 3F51B5;
+  border-color: #000000;
+}
+
+
+ /*img{
+     width: 300%;
+     height: 300%;
+    position: center;
+    top: 100px;
+    left: 600px;
+    line-height: 80px;
+ }
+
+ .imagen{
+    
+    background-position-x: center;
+    position: relative;
+
+ }
+
+
+ .boton{
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50px;
+  background-color: rgb(255,255,255, .6);
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+ left: 900px;
+ color: rgb(216, 205, 205);
+ box-shadow: 0 0 10px rgba(255,255, 255,.6);
+ -webkit-animation: all .3s ease;
+ -o-animation: all .3s ease;
+ transition: all .3s ease; 
+ }
+
+ .boton:hover{
+     cursor: pointer;    
+     transform : scale(1.2,1.2);
+ }
+ .atras{
+     left: 40%;
+     top: calc(50%-70%);
+ }
+
+ .adelante{
+     right: 2%;
+     top: calc(50%-70%);
+ }*/
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+

@@ -1,0 +1,50 @@
+
+   
+   fieldset{
+  background :rgb(214, 209, 209);
+ border-radius: 1px solid #333;
+ padding: 0 0 0 30px;
+
+   }
+
+   input ,button {
+   position: relative;
+   float: right;
+   width: 200px;
+   height: 37px;
+   right: 10px;
+   left: 0px;
+   padding: 0px;
+   border-radius: 1px solid #333;
+  }
+   input{
+       border: none;
+       color : rgb(97, 96, 96)
+       padding 0px;
+   }
+ 
+   button {
+      width: 80px; 
+      border: none;
+      background:rgb(255, 255, 255);
+      top: 0px;
+   }
+   .fa-search{
+    width: 20px;
+    height: 20px;
+    padding: 0;  
+    right: 0px;
+    left : 0px;
+    top : 0px;
+    position: relative;
+    color: blue;
+   }
+
+
+   input:focus{
+    outline: none;
+   }
+  
+
+
+  

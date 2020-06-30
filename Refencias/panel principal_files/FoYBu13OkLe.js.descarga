@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["j\/f9N"]); }
+
+__d("MMessagesBubbleMaker",["cx","CSS","DOM"],(function(a,b,c,d,e,f,g){"use strict";function a(a,c){var d;(d=b("CSS")).addClass(a,"_34ej");var e=b("DOM").create("div",{dir:"auto"});d.addClass(e,"_1c-b");d.addClass(e,"_34ee");d.addClass(e,"_3_5q");d.addClass(e,"_3_5q");d.addClass(e,"_34eo");e.appendChild(a);a=b("DOM").create("div");d.addClass(a,"_1c-a");d.addClass(a,"_34en");c?(b("CSS").addClass(a,"_1c_3"),b("CSS").addClass(a,"_34em")):b("CSS").addClass(a,"_3_63");a.appendChild(e);d=b("DOM").create("span");d.appendChild(a);return d}e.exports={createFromElement:a}}),null);
