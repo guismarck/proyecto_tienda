@@ -1,0 +1,50 @@
+.h1-text-center {
+    text-align: center;
+}
+
+.box-ps {
+    padding: 0 30%;
+}
+
+.box-ps input {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    padding-left: 2em;
+    font-size: 1.2em;
+}
+
+.box-ps input:focus, .form-control:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    border: none;
+    border-bottom: 1.8px solid #169BD5;
+    transition: border-bottom 0.2s ease-out;
+    box-shadow: none;
+}
+
+.box-ps i {
+    color: black;
+    position: relative;
+    top: 1.5em;
+    font-size: 1.3em;
+}
+
+.btn-signup {
+    position: unset;
+    float: unset;
+    width: 50%;
+    margin: 1em auto;
+    font-size: 1.2em;
+    background-color: #169BD5;
+}
+
+.p-login{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.text-blue{
+    color: #169BD5;
+}

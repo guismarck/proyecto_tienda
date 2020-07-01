@@ -7,7 +7,7 @@
 
    }
 
-   input ,button {
+  fieldset input ,button {
    position: relative;
    float: right;
    width: 200px;
