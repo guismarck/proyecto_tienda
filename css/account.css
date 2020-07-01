@@ -1,4 +1,4 @@
-.h1-text-center {
+.own-text-center {
     text-align: center;
 }
 
@@ -47,4 +47,106 @@
 
 .text-blue{
     color: #169BD5;
+}
+
+.h-divider{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.bg-blue{
+    background-color: #169BD5;
+    height: 25em;
+}
+
+.mt{
+    margin-top: 2em;
+}
+
+.row-wom{
+    margin: 0;
+}
+
+.footer-list{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-list li {
+    margin-top: 1em;
+}
+
+.footer-list li a{
+    color: #000;
+    text-decoration: none;
+}
+
+fieldset{
+    display: block;
+    width: 100%;
+}
+
+.align-center{
+    width: auto;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3em;
+    
+}
+
+fieldset input[type="email"]{
+    float: left;
+}
+
+.btn-send{
+    width: auto;
+    padding: auto 5em;
+    float: unset;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.social-media img{
+    position: unset;
+    margin-right: 1.5em;
+    width: 3em;
+    height: 3em;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6em;
+}
+
+.info-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+    width: 70%;
+}
+
+.info-item img{
+    position: unset;
+    margin-right: 1.5em;
+    width: 3em;
+    height: 3em;
+}
+
+.info-item a{
+    text-decoration: none;
+    color : #000;
+}
+
+small{
+    color: #fff;
 }
