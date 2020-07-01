@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/busqueda.css">
+    <link rel="stylesheet" href="css/account.css">
+    <script src="https://use.fontawesome.com/5478cb190c.js"></script>
+    <title>TIENDA | Crear Cuenta</title>
+</head>
+
+<body>
+    <header class="encbezado_Pagina">
+
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#"><strong>PRS&</strong> Shop</a>
+
+                </div>
+            </div>
+
+            <!-- - Recopila los enlaces de navegación, formularios y otro contenido para alternar -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="create-account.html">Signup</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">24x7 Support <b
+                                class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><strong>Call: </strong>+09-456-567-890</a></li>
+                            <li><a href="#"><strong>Mail: </strong>info@yourdomain.com</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><strong>Address: </strong>
+                                    <div>
+                                        234, New york Street,<br />
+                                        Just Location, USA
+                                    </div>
+                                </a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+
+                        <fieldset>
+                            <input type="search">
+                            <button type="submit" id="busca">
+                                <img class="fas fa-search" src="img/Buscar.png" alt>
+                            </button>
+                        </fieldset>
+                    </div>
+                    &nbsp;
+                    <button type="submit" class="btn btn-primary">
+                        <img class="busca algo" id="algo" src="img/Carrito.png">
+                    </button>
+                </form>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="col-md-9">
+
+                <div class="well well-lg offer-box text-center">
+
+                    <ol class="breadcrumb">
+                        <li><a href="#">Inicio</a></li>
+                        <li class="active">Crear cuenta</li>
+                    </ol>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="main">
+                    <h1 class="h1-text-center">CREAR UNA CUENTA</h1>
+                    <form>
+                        <div class="form-group box-ps">
+                            <i class="fa fa-user-circle-o"></i>
+                            <input type="text" class="form-control" id="name"
+                                aria-describedby="Aqui su nombre" placeholder="Su nombre" autocomplete="off">
+                        </div>
+                        <div class="form-group box-ps">
+                            <i class="fa fa-envelope"></i>
+                            <input type="email" class="form-control" id="email"
+                                placeholder="Email" autocomplete="off">
+                        </div>
+                        <div class="form-group box-ps">
+                            <i class="fa fa-lock"></i>
+                            <input type="password" class="form-control" id="password"
+                                placeholder="Password" autocomplete="off">
+                        </div>
+                        <div class="form-group box-ps">
+                            <button type="submit" class="btn btn-primary btn-block btn-signup">Crear cuenta</button>
+                        </div>
+                        
+                    </form>
+                    <p class="p-login">O <a href="login.html"><span class="text-blue">Regresar a Inicio</span></a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
