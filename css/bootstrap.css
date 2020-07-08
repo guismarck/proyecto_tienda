@@ -4485,7 +4485,7 @@ a.thumbnail.active {
   border-color: #428bca;
 }
 .thumbnail .caption {
-  padding: 9px;
+  padding: 0px;
   color: #333;
 }
 .alert {
