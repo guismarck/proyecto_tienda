@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/busqueda.css">
+    <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="css/account.css">
     <script src="https://use.fontawesome.com/5478cb190c.js"></script>
-    <title>TIENDA | Crear Cuenta</title>
+    <script src="js/products.json"></script>
+    <title>TIENDA | Iniciar Sesion</title>
 </head>
 
 <body>
@@ -83,36 +85,46 @@
                 <div class="well well-lg offer-box text-center">
 
                     <ol class="breadcrumb">
-                        <li><a href="#">Inicio</a></li>
-                        <li class="active">Crear cuenta</li>
+                        <li><a href="#">Compras</a></li>
+                        <li class="active">Carrito de compras</li>
                     </ol>
                     <hr>
                 </div>
             </div>
-            <div class="col-md-12">
-                <div class="main">
-                    <h1 class="own-text-center">CREAR UNA CUENTA</h1>
-                    <form>
-                        <div class="form-group box-ps">
-                            <i class="fa fa-user-circle-o"></i>
-                            <input type="text" class="form-control" id="name" aria-describedby="Aqui su nombre"
-                                placeholder="Su nombre" autocomplete="off">
-                        </div>
-                        <div class="form-group box-ps">
-                            <i class="fa fa-envelope"></i>
-                            <input type="email" class="form-control" id="email" placeholder="Email" autocomplete="off">
-                        </div>
-                        <div class="form-group box-ps">
-                            <i class="fa fa-lock"></i>
-                            <input type="password" class="form-control" id="password" placeholder="Password"
-                                autocomplete="off">
-                        </div>
-                        <div class="form-group box-ps">
-                            <button type="submit" class="btn btn-primary btn-block btn-signup">Crear cuenta</button>
-                        </div>
+            <div class="main box-border">
+                <div id="mi-slider" class="mi-slider">
 
-                    </form>
-                    <p class="p-login">O <a href="login.html"><span class="text-blue">Regresar a Inicio</span></a></p>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Codigo</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Quitar de la lista</th>
+                          </tr>
+                        </thead>
+                        <tbody id="row-container">
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td><a class="btn btn-primary" href="">Quitar</a></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td><a class="btn btn-primary" href="">Quitar</a></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td><a class="btn btn-primary" href="">Quitar</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                
                 </div>
             </div>
         </div>
@@ -170,6 +182,8 @@
             <small>Copyright &copy; AGYM - UNI</small>
         </div>
     </footer>
+
+    <script src="js/detalle-compras.js"></script>
 </body>
 
 </html>

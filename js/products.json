@@ -1,0 +1,23 @@
+[
+    {
+        "id":"P001",
+        "name":"Sansumg J2 Core",
+        "price":"C$ 10000",
+        "desc":"Buen telefono",
+        "img":"img/Sansumg-j2Core.jpg"
+    },
+    {
+        "id":"P002",
+        "name":"Sansumg J7 Pro",
+        "price":"C$ 10000",
+        "desc":"Buen telefono",
+        "img":"img/sansumJ7Pro.PNG"
+    },
+    {
+        "id":"P003",
+        "name":"Sansumg A30",
+        "price":"C$ 10000",
+        "desc":"Buen telefono",
+        "img":"img/sansungA30.jpg"
+    }
+]
