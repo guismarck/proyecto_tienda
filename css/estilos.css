@@ -178,14 +178,15 @@ background-size: 100%;
 .caption{
   display: flex;
   justify-content: center;
+  border: black;
 }
+
 
 .caption-a {
   position: relative;
   right: -30px;
   top: 160px;
   background-color: 0;
-  
 }
 
 .caption-b{
@@ -195,9 +196,79 @@ background-size: 100%;
   top: 200px;
   background-color: 0;
  
-  
+}
+/*catalogo de telefonos*/
+.imagen-telefonos{
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(253, 253, 253);
 }
 
+
+.imagen-telefonos:nth-child(1){
+  background-image: url("/img/Sansumgs/Captura.PNG");
+  width: 0px;
+  border: 1;
+  background-color: #fff;
+  bottom: auto;
+}
+
+.imagen-telefonos:nth-child(2){
+  background-image: url("/img/Sansumgs/sansugM30.PNG");
+  width: 0px;
+  border: 1;
+  background-color: #fff;
+  bottom: auto;
+}
+
+.imagen-telefonos:nth-child(3){
+  background-image: url("/img/Sansumgs/samsumJduo.PNG");
+  width: 0px;
+  border: 1;
+  background-color: #fff;
+  bottom: auto;
+}
+
+.caption-a1{
+  display: flex;
+  justify-content: center;
+  border: black;
+}
+.caption-ax{
+  position: relative;
+  color:#585858;
+  right: 10px;
+  top: 190px;
+  background-color: 0;
+  margin-left: 8px;
+}
+.caption-bx{
+  position: relative;
+  top: 170px;
+  left: -10px;
+}
+
+.botones .clik-compra{
+top:170px;
+width: 100px;
+left: 40px;
+position: center;
+border: 1;
+background-color: rgb(255, 255, 255);
+border-radius: 2px ;
+ 
+display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 0 8px;
+    border-radius: 3px;
+    vertical-align: text-bottom;
+    color: #528ec1;
+    border: 2px solid #528ec1;
+
+}
 .thumbnail .caption.img-ventas {
   padding: 9px;
   color: rgb(19, 18, 18);
