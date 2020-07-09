@@ -283,12 +283,37 @@ display: inline-block;
   color: #fdf9f9;
 }
 
+.ubicacion{
+  margin-bottom: 11px;
+  position: relative;
+ top: 100%;
+ left: -30px;
+}
+.foto-tramo{
+margin-left: 400px;
+ margin-left: 400px;
 
+  width: 400px;
+  display: flex;
+
+  right: 0;
+  top: 0;
+}
 
 .thumbnail .caption.img-ventas {
   padding: 9px;
   color: rgb(19, 18, 18);
   
+}
+
+.id-hidden{
+  height: 0;
+  width: 0;
+  display: flex;
+  position: absolute;
+  right: -110;
+  font-size: 0;
+  color: transparent;
 }
 
 /*VALIDACION DE FORMULARIOS*/

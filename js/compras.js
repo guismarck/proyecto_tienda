@@ -4,13 +4,18 @@ c_name = "carrito"
 container = document.getElementById("container")
 products = [...document.querySelectorAll(".product")]
 
+
 container.addEventListener("click", (e => {
+    e.preventDefault()
+    // console.log(e.target.classList)
     if(e.target.classList.contains("add-btn")){
-        productId = e.target.parentNode.childNodes[1].textContent
         
+        productId = e.target.parentNode.parentNode.childNodes[1].textContent
+        console.log(productId)
         addCookie(productId)
         console.log(getCookie())
         console.log(getCookie().join(','))
+        alert('Se ha agregado al carrito!')
     }
 }))
 

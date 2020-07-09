@@ -29,6 +29,7 @@ const getCookie = () => {
     let mycookies = document.cookie
     mycookies = mycookies.replace(c_name+'=','').split(',')
     mycookies.pop()
+    console.log(mycookies)
     return mycookies
 }
 
