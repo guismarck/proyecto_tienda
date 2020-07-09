@@ -28,6 +28,7 @@ c_name = "carrito"
 const getCookie = () => {
     let mycookies = document.cookie
     mycookies = mycookies.replace(c_name+'=','').split(',')
+    // mycookies.shift()
     mycookies.pop()
     console.log(mycookies)
     return mycookies

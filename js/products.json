@@ -19,5 +19,19 @@
         "price":"C$ 10000",
         "desc":"Buen telefono",
         "img":"img/sansungA30.jpg"
+    },
+    {
+        "id":"P004",
+        "name":"Sansumg J6",
+        "price":"C$ 10000",
+        "desc":"Buen telefono",
+        "img":"img/sansungA30.jpg"
+    },
+    {
+        "id":"P005",
+        "name":"Sansumg J7",
+        "price":"C$ 10000",
+        "desc":"Buen telefono",
+        "img":"img/sansungA30.jpg"
     }
 ]
