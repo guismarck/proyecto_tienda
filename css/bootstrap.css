@@ -4435,7 +4435,7 @@ a.list-group-item.active > .badge,
 }
 /* manipuaacion de las image de los articulos */
 .imagen-product{
-  background-size: 100%;
+  background-size: 90%;
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgb(255, 254, 254);
@@ -4443,7 +4443,7 @@ a.list-group-item.active > .badge,
 
 .imagen-product:nth-child(1) {
   background-image: url("/img/telefonos\ gama\ media.jpg");
-   width: 10px;
+   width: 15px;
   margin-right: auto;
 
    
@@ -4469,8 +4469,20 @@ a.list-group-item.active > .badge,
 }
 
 
+.caption-tele{
+  display: flex;
+  justify-content: center;
+  border: black;
+}
 
-
+.caption-t {
+  position: relative;
+  color:#585858;
+  right: 10px;
+  top: 90px;
+  background-color: white;
+  margin-left: 8px;
+}
 .thumbnail > img,
 .thumbnail a > img {
   margin-right: auto;

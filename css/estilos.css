@@ -209,7 +209,7 @@ background-size: 100%;
 .imagen-telefonos:nth-child(1){
   background-image: url("/img/Sansumgs/Captura.PNG");
   width: 0px;
-  border: 1;
+  border: 0;
   background-color: #fff;
   bottom: auto;
 }
@@ -217,7 +217,7 @@ background-size: 100%;
 .imagen-telefonos:nth-child(2){
   background-image: url("/img/Sansumgs/sansugM30.PNG");
   width: 0px;
-  border: 1;
+  border: 0;
   background-color: #fff;
   bottom: auto;
 }
@@ -225,7 +225,15 @@ background-size: 100%;
 .imagen-telefonos:nth-child(3){
   background-image: url("/img/Sansumgs/samsumJduo.PNG");
   width: 0px;
-  border: 1;
+  border: 0;
+  background-color: #fff;
+  bottom: auto;
+}
+
+.imagen-telefonos:nth-child(4){
+  background-image: url("/img/Sansumgs/sansung\ J7.PNG");
+  width: 0px;
+  border: 0;
   background-color: #fff;
   bottom: auto;
 }
@@ -243,21 +251,21 @@ background-size: 100%;
   background-color: 0;
   margin-left: 8px;
 }
-.caption-bx{
+.caption-bx {
   position: relative;
   top: 170px;
   left: -10px;
 }
 
-.botones .clik-compra{
-top:170px;
-width: 100px;
-left: 40px;
+.botones .clik-compra  {
+top: 170px;
+width: 90px;
+left: 35px;
 position: center;
 border: 1;
 background-color: rgb(255, 255, 255);
 border-radius: 2px ;
- 
+ margin-bottom: 20px;
 display: inline-block;
     text-transform: uppercase;
     font-size: 13px;
@@ -269,6 +277,14 @@ display: inline-block;
     border: 2px solid #528ec1;
 
 }
+
+.clik-compra:hover{
+  background-color: cornflowerblue;
+  color: #fdf9f9;
+}
+
+
+
 .thumbnail .caption.img-ventas {
   padding: 9px;
   color: rgb(19, 18, 18);
