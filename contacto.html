@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/busqueda.css">
     <link rel="stylesheet" href="css/account.css">
     <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="Refencias/contacto.css">
     <script src="https://use.fontawesome.com/5478cb190c.js"></script>
     <title>contacto</title>
 </head>
@@ -34,9 +35,11 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">contactanos</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="login.html">Login</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
                     <li><a href="create-account.html">Signup</a></li>
+                  
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">24x7 Support <b
                                 class="caret"></b></a>
@@ -58,7 +61,7 @@
                     <div class="form-group">
 
                         <fieldset>
-                            <input type="search">
+                            <input id="searcher" type="search">
                             <button type="submit" id="busca">
                                 <img class="fas fa-search" src="img/Buscar.png" alt>
                             </button>
@@ -76,23 +79,19 @@
     </header>
 
     <main>
-        <div class="container">
 
-            <div class="col-md-9">
-                <div class="well well-lg offer-box text-center">
+        <section class="contacto">
+           
+              <div class="well well-lg offer-box text-center">
                     <ol class="breadcrumb">
-                        <li><a href="#">Inicio</a></li>
+                        <li><a href="index.html">Inicio</a></li>
                         <li class="active">Contacto</li>
                     </ol>
                     <hr>
                 </div>
-
-                <div class="Contacto">
-                    <h1><a href="#">Contactanos</a></h1>
-                </div>
-
+              
                 <div class="contactos">
-
+                    <h1>Contactanos</h1>
                     <h3>Dirección</h3>
                     <p>Mercado Israel Lewites, de la aguja principal 200metros abajo, tramo E5</p>
                     <p>Managua, Nicaragua</p>
@@ -104,18 +103,15 @@
                     <h3>Correo Electronico</h3>
                     <p>Guismarck_ventas@gmail.com</p>
                     <br>
-                    <div class="ubicacion">
-                        <img class="foto-tramo" src="img/Sansumgs/ubicacion.PNG">
-                    </div>
+                   
                 </div>
-
 
                 <br>
 
-                <div class="mensaje">
-                    <h3>o déjanos un mensaje</h3>
-                    <hr>
-                    <form>
+                <div >
+                
+                    <form class="formulario">
+                        <h3>o déjanos un mensaje</h3>
                         <label for="nombre">Nombre: </label><br>
                         <input type="text" id="nombre"><br>
 
@@ -128,16 +124,16 @@
                         <textarea name="mensaje" style="width:500px; height:200px;">
 
                         </textarea> <br> <br>
-                        <input type="submit" value="Enviar mensaje">
+                       <a href="" class="btn-enviar">Enviar Mesaje</a>
                     </form>
-
                 </div>
+               
+        </section>
 
-            </div>
 
-        </div>
     </main>
     <br>
+
     <footer id="sticky-footer" class="py-4 mt bg-blue">
         <div class="row row-wom">
             <div class="col-md-4">

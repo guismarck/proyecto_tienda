@@ -1,0 +1,30 @@
+body {
+    background: whitesmoke;
+}
+
+.contacto {
+    display: inline-block;
+    padding: 30px;
+    font-size: 130%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.formulario {
+    display: block;
+    position: absolute;
+    /*para posicionar el formulario a la parte derecha*/
+    margin-top: 8%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn-enviar {
+    font-weight: bold;
+    background: rgb(93, 131, 168);
+    display: block;
+    padding: 4px;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: -12px;
+    text-align: center;
+}

@@ -6,7 +6,7 @@ products = [...document.querySelectorAll(".product")]
 
 
 container.addEventListener("click", (e => {
-    e.preventDefault()
+    // e.preventDefault()
     // console.log(e.target.classList)
     if(e.target.classList.contains("add-btn")){
         

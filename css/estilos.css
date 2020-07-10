@@ -25,7 +25,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+  vertical-align: baseline;
+  text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -411,6 +412,7 @@ background-size: 80%;
   right: 10px;
   top: 190px;
   background-color: 0;
+
   margin-left: -41px;
 }
 .caption-bx {
@@ -451,15 +453,18 @@ display: inline-block;
  top: 100%;
  left: -30px;
 }
-.foto-tramo{
-margin-left: 400px;
+
+.comtacto-mapa:nth-child(1){
+  position: relative;
+  background-color: aqua;
+  margin-left: 400px;
  margin-left: 400px;
+ background-size: 80%;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-color: rgb(8, 7, 7);
+  background-image: url("/img/Sansumgs/ubicacion.PNG");
 
-  width: 400px;
-  display: flex;
-
-  right: 0;
-  top: 0;
 }
 
 .thumbnail .caption.img-ventas {
