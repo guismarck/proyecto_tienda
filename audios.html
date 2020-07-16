@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="css/busqueda.css">
     <link rel="stylesheet" href="css/account.css">
     <script src="https://use.fontawesome.com/5478cb190c.js"></script>
-    <title>TIENDA | Iniciar Sesion</title>
+    <title>Tienda | Audio</title>
 </head>
 
 <body>
-    <header class="encbezado_Pagina">
 
+    <heder class="encbezado_Pagina">
         <nav class="navbar navbar-default" role="navigation">
+
             <div class="container-fluid">
                 <div class="navbar-header">
 
@@ -26,28 +27,21 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="navbar-brand" href="index.html"><strong>PRS&</strong> Shop</a>
+                    <a class="navbar-brand" href="index.html"><strong>LeivaCell</strong> Celulares y Accesorios</a>
+
 
                 </div>
             </div>
 
-            <!-- - Recopila los enlaces de navegación, formularios y otro contenido para alternar -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                 <ul class="nav navbar-nav navbar-right">
-<<<<<<< HEAD
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                    <li><a href="create-account.html">Signup</a></li>
-=======
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="contacto.html">Contatactanos</a></li>
                     <li><a href="login.html">Acceder</a></li>
                     <li><a href="create-account.html">Registrarse</a></li>
                     <li><a href="Nosotros.html">Nosotros</a></li>
 
->>>>>>> 272a9c691a192446b29fbd8d112f0015fdc04d6a
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">24/7 Soporte <b
                                 class="caret"></b></a>
@@ -69,58 +63,118 @@
                     <div class="form-group">
 
                         <fieldset>
-                            <input type="search">
+                            <input id="searcher" type="search">
                             <button type="submit" id="busca">
                                 <img class="fas fa-search" src="img/Buscar.png" alt>
                             </button>
                         </fieldset>
                     </div>
                     &nbsp;
-                    <button type="submit" class="btn btn-primary">
-                        <img class="busca algo" id="algo" src="img/Carrito.png">
-                    </button>
+                    <a href="compras.html" class="btn btn-primary">
+                        <img class="busca" id="algo" src="img/Carrito.png">
+                    </a>
                 </form>
 
             </div>
         </nav>
-    </header>
+
+    </heder>
 
     <main>
         <div class="container">
             <div class="col-md-9">
+                <!--EMPIEZA FILA-->
 
                 <div class="well well-lg offer-box text-center">
 
                     <ol class="breadcrumb">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li class="active">Iniciar Sesion</li>
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li class="active"> Audio </li>
                     </ol>
+
                     <hr>
                 </div>
-            </div>
-            <div class="col-md-12">
-                <div class="main">
-                    <h1 class="own-text-center">INICIAR SESION</h1>
-                    <form>
-                        <div class="form-group box-ps">
-                            <i class="fa fa-envelope"></i>
-                            <input type="email" class="form-control" id="email" placeholder="Email" autocomplete="off" required>
-                        </div>
 
-                        <div class="form-group box-ps">
-                            <i class="fa fa-lock"></i>
-                            <input type="password" class="form-control" id="password" placeholder="Password" autocomplete="off" required>
-                        </div>
+                <div class="telefonos">
+                    <h1><a href="#">Audio </a></h1>
 
-                        <div class="form-group box-ps">
-                            <button type="submit" class="btn btn-primary btn-block btn-signup">Iniciar sesion</button>
-                        </div>
-                    </form>
                 </div>
+
+                <br>
+                <div id="container" class="row">
+                    <div class="col-md-4 text-center col-sm-6 col-xs-6 thumbnail product-box imagen-telefonos product">
+
+                        <div class="caption">
+                            <h3><a class="caption-ax" href="DetalleTelefonos.html">GalaxyJ2</a></h3>
+                        </div>
+
+                        <div class="caption-a1">
+                            <h3><a class="caption-bx" href="#">$120.00</a></h3>
+                        </div>
+
+                        <div class="botones">
+                            <p class="id-hidden">P001</p>
+                            <button class="clik-compra"><a class="add-btn" href="./compras.html">comprar</a></button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center col-sm-6 col-xs-6 thumbnail product-box imagen-telefonos product">
+
+                        <div class="caption">
+                            <h3><a class="caption-ax" href="#">GalaxyM30 </a></h3>
+                        </div>
+
+                        <div class="caption-a1">
+                            <h3><a class="caption-bx" href="#">$130.00 </a></h3>
+                        </div>
+
+                        <div class="botones">
+                            <p class="id-hidden">P003</p>
+                            <button class="clik-compra "><a class="add-btn" href="./compras.html">comprar</a></button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center col-sm-6 col-xs-6 thumbnail product-box imagen-telefonos product">
+
+                        <div class="caption">
+                            <h3><a class="caption-ax" href="#">GalaxyJ7 </a></h3>
+
+                        </div>
+                        <div class="caption-a1">
+                            <h3><a class="caption-bx" href="#">$130.00 </a></h3>
+                        </div>
+
+                        <div class="botones">
+                            <p class="id-hidden">P002</p>
+                            <button class="clik-compra"><a class="add-btn" href="./compras.html">comprar</a></button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center col-sm-6 col-xs-6 thumbnail product-box imagen-telefonos product">
+
+                        <div class="caption">
+                            <h3><a class="caption-ax" href="#">GalaxyJ2 </a></h3>
+
+                        </div>
+                        <div class="caption-a1">
+                            <h3><a class="caption-bx" href="#">$130.00 </a></h3>
+                        </div>
+
+                        <div class="botones">
+                            <p class="id-hidden">P005</p>
+                            <button class="clik-compra"><a class="add-btn" href="./compras.html">comprar</a></button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="container" class="row">
+                </div>
+
             </div>
-        </div>
     </main>
-    <hr class="h-divider">
+
+    <br>
     <footer id="sticky-footer" class="py-4 mt bg-blue">
         <div class="row row-wom">
             <div class="col-md-4">
@@ -132,6 +186,7 @@
                     <li><a href="#">Acerca de nosotros</a></li>
                 </ul>
             </div>
+
             <div class="col-md-4 align-center">
                 <h3 class="own-text-center">Contactanos</h3>
                 <p class="own-text-center mt">Regístrate para mantenerte al tanto.</p>
@@ -169,10 +224,11 @@
                 </div>
             </div>
         </div>
-        <div class="container own-text-center">
-            <small>Copyright &copy; AGYM - UNI</small>
-        </div>
+
     </footer>
+    <script src="js/compras.js"></script>
+    <script src="js/busqueda.js"></script>
+
 </body>
 
 </html>
