@@ -317,7 +317,7 @@ form .form-group .submit-buscador {
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("/img/Sansumgs/sansung\ Samsung-j2Core.jpg");
+    background-image: url("/img/sansungA30.PNG");
     text-align: center;
     margin-top: 0px;
     height: 400px;
@@ -465,14 +465,14 @@ form .form-group .submit-buscador {
 }
 
 .imagen-telefonos:nth-child(1) {
-    background-image: url("/img/Sansumgs/j2-core.jpg");
+    background-image: url("/img/Sansumgs/Captura.PNG");
     width: 0px;
     border: 0;
     background-color: #fff;
     bottom: auto;
 }
 
-s .imagen-telefonos:nth-child(2) {
+.imagen-telefonos:nth-child(2) {
     background-image: url("/img/Sansumgs/sansugM30.PNG");
     width: 0px;
     border: 0;
@@ -549,7 +549,7 @@ s .imagen-telefonos:nth-child(2) {
     left: -30px;
 }
 
-.comtacto-mapa:nth-child(6) {
+.comtacto-mapa:nth-child(1) {
     position: relative;
     background-color: aqua;
     margin-left: 400px;
