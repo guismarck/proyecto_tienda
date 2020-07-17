@@ -15,7 +15,7 @@ const addRow = (fragment, product) => {
     const tdRm= document.createElement('td')
     tdRm.appendChild(a)
 
-
+    
     const tr = document.createElement('tr')
     tr.appendChild(tdId)
     tr.appendChild(tdNombre)
@@ -27,19 +27,27 @@ const addRow = (fragment, product) => {
 c_name = "carrito"
 const getCookie = () => {
     let mycookies = document.cookie
-    mycookies = mycookies.replace(c_name+'=','').split(',')
+    mycookies = mycookies.
+    replace('login_tienda=true,', '').replace('; ', '').
+    replace(c_name+'=','').split(',')
     // mycookies.shift()
     mycookies.pop()
-    console.log(mycookies)
+    // console.log(mycookies)
     return mycookies
 }
+
 
 const removeCookie = (cookie) => {
     let exdays = 15
     let exdate = new Date(); 
     exdate.setDate(exdate.getDate() + (exdays*24*60*60*1000));
-    if (document.cookie.split(',').find(row => row.startsWith(c_name))) {
-        
+    let mycookies = document.cookie
+    mycookies = mycookies.
+    replace('login_tienda=true,', '').replace('; ', '').split(',')
+    mycookies.pop()
+
+    if (mycookies.find(row => row.startsWith(c_name))) {
+        // row => row.startsWith(c_name)
         p_list = getCookie()
         p_list = p_list.filter(function(value){ return (value != cookie);})
 
@@ -70,7 +78,7 @@ function readTextFile(callback) {
 const loadRows =() => {
     readTextFile(function(text){
         const storedCookies = getCookie()
-        
+        // console.log(storedCookies)
         if(storedCookies.length > 0){
             const dataJson = JSON.parse(text);
             

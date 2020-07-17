@@ -16,6 +16,7 @@ container.addEventListener("click", (e => {
         console.log(getCookie())
         console.log(getCookie().join(','))
         alert('Se ha agregado al carrito!')
+        e.preventDefault()
     }
 }))
 
@@ -26,7 +27,7 @@ const getCookie = () => {
     //     exdate.setDate(exdate.getDate() + (exdays*24*60*60*1000));
     // document.cookie = `carrito=P001,; expires=${ exdate.toGMTString()}}`;
     let mycookies = document.cookie
-    mycookies = mycookies.split(',')
+    mycookies = mycookies.replace('login_tienda=true,', '').replace('; ', '').split(',')
     mycookies.pop()
     return mycookies
 }
@@ -35,8 +36,9 @@ const addCookie =(product) => {
         let exdays = 15
         let exdate = new Date(); 
         exdate.setDate(exdate.getDate() + (exdays*24*60*60*1000));
-    if (!document.cookie.split(',').find(row => row.startsWith(c_name))) {
+    if (!getCookie().find(row => row.startsWith(c_name))) {
         document.cookie = `${c_name}=${product},; expires=${ exdate.toGMTString()}}`;
+        // console.log('Solo esta entrando aqui!')
       }else{
         p_list = getCookie()
         p_list.push(product)

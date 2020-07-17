@@ -32,5 +32,66 @@
         "price": "C$ 10000",
         "desc": "Buen telefono",
         "img": "img/sansungA30.jpg"
+    },
+
+    {
+        "id":"A001",
+        "name":"Protector",
+        "price":"C$100",
+        "desc":"Protecto de pantalla"
+        
+    },
+   
+    {
+        "id":"A002",
+        "name":"Protector",
+        "price":"C$100",
+        "desc":"Protecto de pantalla"
+        
+    },
+
+    {
+        "id":"A003",
+        "name":"Sostenedor",
+        "price":"C$80.00",
+        "desc":"Apollo de telefono"
+        
+    },
+   
+    {
+        "id":"A004",
+        "name":"USB 3.0",
+        "price":"C$80.00",
+        "desc":"Protecto de pantalla"
+        
+    },
+    {
+        "id":"A005",
+        "name":"Funda",
+        "price":"C$100",
+        "desc":"Caratula"
+        
+    },
+   
+    {
+        "id":"A006",
+        "name":"Micro-CD",
+        "price":"C$100",
+        "desc":"Memoria"
+        
+    },
+    {
+        "id":"A007",
+        "name":"Adactador",
+        "price":"C$100",
+        "desc":"Cagador"
+        
+    },
+    {
+        "id":"A008",
+        "name":"Soporte",
+        "price":"C$100",
+        "desc":"Soporte de telefono"
+        
     }
 ]

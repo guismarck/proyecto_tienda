@@ -357,6 +357,18 @@ form .form-group .submit-buscador {
     margin-top: 20px;
     background-image: url("/img/Acesorios/xiomi.PNG");
 }
+
+.btncompra{
+    position: relative;
+    width: 60px;
+    padding: 5px 10px;
+    margin-bottom: 100px;
+    margin-right: 3%;
+    margin-top: 160px;
+   
+  
+    
+}
 /*FIMNALISA ESTILOS */
 
 .row-2 {
@@ -369,9 +381,7 @@ form .form-group .submit-buscador {
 
 .row-3 {
     margin-top: 80px;
-    /* top: 0px;
- display: flex; */
-    /* margin-left: auto; */
+
     font-size: 30px;
 }
 
