@@ -813,7 +813,7 @@ background-color: rgb(255, 255, 255);
     position: relative;
  }
 
-
+ 
     .servcios-RM{
         text-align: center;
         position: relative;
@@ -845,6 +845,22 @@ background-color: rgb(255, 255, 255);
         color: rgb(18, 18, 19);
         font-size: 25px;
     }
+/* ESTILOS DE DE AUDIO*/
+
+.imagen-Audio {
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(253, 253, 253);
+}
+
+.imagen-Audio:nth-child(1) {
+    background-image: url("/img/audifonos/1.png");
+    width: 0px;
+    border: 0;
+    background-color: #fff;
+    bottom: auto;
+}
 
 
 /*VALIDACION DE FORMULARIOS*/
