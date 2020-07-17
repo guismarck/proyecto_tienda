@@ -10,10 +10,10 @@ const getCookie = () => {
 
 const login = (isLogin) => {
     console.log("en un bocles!!!!")
-    let exdays = (1/24/60/30)
+    let exdays = 1
     let exdate = new Date();
-    exdate.setDate(exdate.getDate() + (exdays * 24 * 60 * 60 * 1000));
-    if (document.cookie.split(',').find(row => row.startsWith(c_name))) {
+    exdate.setDate(exdate.getDate() + exdays);
+    if (document.cookie.includes(c_name)) {
         // document.cookie = `${c_name}=true,; expires=${exdate.toGMTString()}}`;
         document.location = 'index.html'
     } else if (isLogin){
@@ -23,7 +23,6 @@ const login = (isLogin) => {
         // p_list.push(product)
         // document.cookie = `${p_list.join(',')},; expires=${exdate.toGMTString()}}`;
     }
-
 }
 
 login(false)
