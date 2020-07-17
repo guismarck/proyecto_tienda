@@ -324,6 +324,40 @@ form .form-group .submit-buscador {
     position: relative;
     background-color: rgb(255, 255, 255);
 }
+/*ESTILOS DE LOS DETALLES DE ACESORIOS */
+.row-4A {
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("/img/Acesorios/img5.jpg");
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.row-5A {
+    background-color: transparent;
+    float: right;
+    margin-top: 40px;
+    width: 50%;
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+    top: 0px;
+    width: 90%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    background-image: url("/img/Acesorios/xiomi.PNG");
+}
+/*FIMNALISA ESTILOS */
 
 .row-2 {
     margin-top: 0px;
@@ -575,7 +609,78 @@ form .form-group .submit-buscador {
     font-size: 0;
     color: transparent;
 }
+/*MANIPULACION DE LAS IMAGES DE LOS ACSORIOS*/
+.imagen-Acesorios{
+    background-size: 0%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(253, 253, 253);
+}
 
+.imagen-Acesorios:nth-child(1) {
+    background-image: url("/img/Acesorios/img5.jpg");
+    background-size: 90%;
+    width: 0px;
+    border: 0;
+    background-color: #fff;
+    bottom: auto;
+}
+.imagen-Acesorios:nth-child(2) {
+    background-image: url("/img/Acesorios/baterias.jpg");
+    background-size: 90%;
+    width: 0px;
+    border: 0;
+    background-color: #fff;
+    bottom: auto;
+}
+.imagen-Acesorios:nth-child(3) {
+    background-image: url("/img/Acesorios/img1.jpg");
+    background-size: 100%;
+    width: 0px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    bottom: auto;
+}
+.imagen-Acesorios:nth-child(4) {
+    background-image: url("/img/Acesorios/cargadorAndroid.jpg");
+    background-size: 100%;
+    width: 0px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    bottom: auto;
+}
+.imagen-Acesorios:nth-child(5) {
+    background-image: url("/img/Acesorios/img4.jpg");
+    background-size: 100%;
+    width: 0px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    bottom: auto;
+}
+.imagen-Acesorios:nth-child(6) {
+    background-image: url("/img/Acesorios/img3.jpg");
+    background-size: 100%;
+    width: 0px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    bottom: auto;
+}
+.imagen-Acesorios:nth-child(7) {
+    background-image: url("/img/Acesorios/adactadortelefono.jpg");
+    background-size: 105%;
+    width: 0px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    bottom: auto;
+}
+.imagen-Acesorios:nth-child(8) {
+    background-image: url("/img/Acesorios/SoporteTelefonos.jpg");
+    background-size: 100%;
+    width: 0px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    bottom: auto;
+}
 
 /*VALIDACION DE FORMULARIOS*/
 
