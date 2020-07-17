@@ -324,7 +324,119 @@ form .form-group .submit-buscador {
     position: relative;
     background-color: rgb(255, 255, 255);
 }
+
+.row-42 {
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("/img/Sansumgs/sansugM30.PNG");
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.row-43 {
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("/img/Sansumgs/sansung\ J7.PNG");
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+.row-44 {
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("/img/Sansumgs/sansung\ J7.PNG");
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.row-45 {
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("/img/Sansumgs/Captura.PNG");
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.row-46{
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("/img/Sansumgs/a10.jpeg");
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.row-47 {
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("/img/huawei-p30-lite.jpg");
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.row-48 {
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("/img/Sansumgs/redmi\ note\ 8\ pro.png");
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
 /*ESTILOS DE LOS DETALLES DE ACESORIOS */
+
+
 .row-4A {
     float: right;
     margin-top: 50px;
@@ -467,6 +579,88 @@ form .form-group .submit-buscador {
     margin-top: 20px;
     background-image: url("/img/Sansumgs/DeatellesJ7Pro.PNG");
 }
+.row-52 {
+    background-color: transparent;
+    float: right;
+    margin-top: 40px;
+    width: 50%;
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+    top: 0px;
+    width: 90%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    background-image: url("/img/Sansumgs/Screenshot\ \(9\).png");
+}
+.row-53{
+    background-color: transparent;
+    float: right;
+    margin-top: 40px;
+    width: 50%;
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+    top: 0px;
+    width: 90%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    background-image: url("/img/Sansumgs/Screenshot\ \(10\).png");
+}
+
+.row-54{
+    background-color: transparent;
+    float: right;
+    margin-top: 40px;
+    width: 50%;
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+    top: 0px;
+    width: 90%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    background-image: url("/img/Sansumgs/Screenshot\ \(11\).png");
+}
+.row-55{
+    background-color: transparent;
+    float: right;
+    margin-top: 40px;
+    width: 50%;
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+    top: 0px;
+    width: 90%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    background-image: url("/img/Sansumgs/Screenshot\ \(12\).png");
+}
+.row-56{
+    background-color: transparent;
+    float: right;
+    margin-top: 40px;
+    width: 50%;
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+    top: 0px;
+    width: 90%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    background-image: url("/img/Sansumgs/Screenshot\ \(13\).png");
+}
+
 
 .cerca-de {
     font-size: 50px;
