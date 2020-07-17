@@ -692,6 +692,161 @@ form .form-group .submit-buscador {
     bottom: auto;
 }
 
+
+/*estilos de los servicios */
+.clas1{
+  
+    margin-top: 15px;
+    margin-left: auto;
+}
+
+
+.row-s{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    text-transform: uppercase;
+}
+.row-sr{
+width: 100%;
+height: 200px;
+border-radius: 15px  ;
+border: 1px solid rgb(60, 60, 202);
+background-color: rgb(255, 255, 255);
+
+}
+.row-sr1{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px  ;
+    border: 1px solid rgb(60, 60, 202);
+    background-color: rgb(255, 255, 255);
+    
+    }
+
+.row-srr:nth-child(1){
+    background-repeat: no-repeat;
+    background-image: url("/img/Servicios/ServiciosdeHadware.jpg");
+    background-size: 40%;
+    width: 60%;
+    height: 60%;
+    margin-top: 7%;
+    margin-right: 0px;
+    margin-left: 20px;
+    border: 0;
+    bottom: auto;
+ }
+
+ .row-srr{
+    background-repeat: no-repeat;
+    background-image: url("/img/Servicios/desbloque.jpg");
+    background-size: 30%;
+    width: 60%;
+    height: 60%;
+    margin-top: 7%;
+    margin-right: 0px;
+    margin-left: 20px;
+    border: 0;
+    bottom: auto;
+ }
+ .row-srr1:nth-child(1){
+    background-repeat: no-repeat;
+    background-image: url("/img/Servicios/desbloque.jpg");
+    background-size: 30%;
+    width: 50%;
+    height: 50%;
+    margin-top: 6%;
+    margin-right: 0px;
+    margin-left: 20px;
+    border: 0;
+    bottom: auto;
+ }
+ 
+ .row-srr12{
+    background-repeat: no-repeat;
+    background-image: url("/img/Servicios/descarga.jpg");
+    background-size: 30%;
+    width: 60%;
+    height: 70%;
+    margin-top: 0%;
+    margin-right: 0px;
+    margin-left: 20px;
+    border: 0;
+    bottom: auto;
+
+ }
+ .row-srr13{
+    background-repeat: no-repeat;
+    background-image: url("/img/Servicios/descarga.jpg");
+    background-size: 30%;
+    width: 50%;
+    height: 60%;
+    margin-top: 4%;
+    margin-right: 0px;
+    margin-left: 30px;
+    border: 0;
+    bottom: auto;
+ }
+ .row-srr14{
+    background-repeat: no-repeat;
+    background-image: url("/img/Servicios/cambiodeBanda.jpg");
+    background-size: 40%;
+    width: 50%;
+    height: 60%;
+    margin-top: 4%;
+    margin-right: 0px;
+    margin-left: 30px;
+    border: 0;
+    bottom: auto;
+ }
+ .row-srr15{
+    background-repeat: no-repeat;
+    background-image: url("/img/Servicios/soporte.PNG");
+    background-size: 22%;
+    width: 60%;
+    height: 60%;
+    margin-top: 6%;
+    margin-right: 0px;
+    margin-left: 80px;
+    border: 0;
+    bottom: auto;
+    position: relative;
+ }
+
+
+    .servcios-RM{
+        text-align: center;
+        position: relative;
+        margin-left:40% ;
+        margin-top: 10%;
+        top:38px;
+        left: 120px;
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+    }
+    .servcios-RM1{
+        text-align: center;
+        position: relative;
+        margin-left:50% ;
+        margin-top: -6%;
+        top:38px;
+        left: 120px;
+        color: rgb(18, 18, 19);
+        font-size: 25px;
+    }
+    .servcios-RM12{
+        text-align: center;
+        position: relative;
+        margin-left:0% ;
+        margin-right: 2%;
+        margin-top: 6%;
+        top:38px;
+        left: 125px;
+        color: rgb(18, 18, 19);
+        font-size: 25px;
+    }
+
+
 /*VALIDACION DE FORMULARIOS*/
 
 input[type="email"],
