@@ -15,7 +15,7 @@ const login = (isLogin) => {
     exdate.setDate(exdate.getDate() + exdays);
     if (document.cookie.includes(c_name)) {
         // document.cookie = `${c_name}=true,; expires=${exdate.toGMTString()}}`;
-        document.location = 'index.html'
+        document.location = 'compras.html'
     } else if (isLogin){
         document.cookie = `${c_name}=true,; expires=${exdate.toGMTString()}}`;
         login(true)
