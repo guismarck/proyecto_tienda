@@ -703,7 +703,7 @@ form .form-group .submit-buscador {
 }
 
 .imagen-telefonos:nth-child(1) {
-    background-image: url("/img/Sansumgs/Captura.PNG");
+    background-image: url("/img/sansungA30.PNG");
     width: 0px;
     border: 0;
     background-color: #fff;
@@ -728,6 +728,70 @@ form .form-group .submit-buscador {
 
 .imagen-telefonos:nth-child(4) {
     background-image: url("/img/Sansumgs/sansung\ J7.PNG");
+    width: 0px;
+    border: 0;
+    background-color: #fff;
+    bottom: auto;
+}
+
+.imagen-telefonos:nth-child(5) {
+    background-image: url("/img/Sansumgs/Captura.PNG");
+    width: 0px;
+    border: 0;
+    background-color: #fff;
+    bottom: auto;
+}
+
+.imagen-telefonos:nth-child(6) {
+    background-image: url("/img/a10.jpg");
+    width: 0px;
+    border: 0;
+    background-color: #fff;
+    bottom: auto;
+}
+
+.imagen-telefonos:nth-child(7) {
+    background-image: url("/img/huawei-p30-lite.jpg");
+    width: 0px;
+    border: 0;
+    background-color: #fff;
+    bottom: auto;
+}
+
+.imagen-telefonos:nth-child(8) {
+    background-image: url("/img/Sansumgs/redmi\ note\ 8\ pro.png");
+    width: 0px;
+    border: 0;
+    background-color: #fff;
+    bottom: auto;
+}
+
+.imagen-telefonos:nth-child(9) {
+    background-image: url("/img/iphone-11.jpg");
+    width: 0px;
+    border: 0;
+    background-color: #fff;
+    bottom: auto;
+}
+
+.imagen-telefonos:nth-child(10) {
+    background-image: url("/img/iphone-xs-max.jpg");
+    width: 0px;
+    border: 0;
+    background-color: #fff;
+    bottom: auto;
+}
+
+.imagen-telefonos:nth-child(11) {
+    background-image: url("/img/iphone-8.jpg");
+    width: 0px;
+    border: 0;
+    background-color: #fff;
+    bottom: auto;
+}
+
+.imagen-telefonos:nth-child(12) {
+    background-image: url("/img/iphone-11-pro.jpg");
     width: 0px;
     border: 0;
     background-color: #fff;
