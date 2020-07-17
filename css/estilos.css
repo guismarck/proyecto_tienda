@@ -862,6 +862,13 @@ background-color: rgb(255, 255, 255);
     bottom: auto;
 }
 
+.imagen-Audio:nth-child(2) {
+    background-image: url("/img/audifonos/11.jpg");
+    width: 0px;
+    border: 0;
+    background-color: #fff;
+    bottom: auto;
+}
 
 /*VALIDACION DE FORMULARIOS*/
 
